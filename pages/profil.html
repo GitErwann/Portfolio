@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../style/style.css" type="text/css" > 
+        <title>Portfolio de Erwann</title>
+        <meta name="Auteurs" content="Erwann Koehler"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="icon" type="image/png" href="../images/logo.png" />
+		<script src="https://kit.fontawesome.com/e051dd5741.js" crossorigin="anonymous"></script>
+		<script src="https://kit.fontawesome.com/e33cec9c93.js" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="../js/menuResponsive.js"></script>
+		<script type="text/javascript" src="../js/popup.js"></script>
+
+    </head>    
+
+<body>
+    <nav>
+        <ul class="ul-nav">
+            <li class="li-logo">
+                <div class="div-nav-logo">
+                    <p class="p-nav-logo">
+                         Erwann
+                    </p>
+                </div>
+            </li>
+            <li class="li-item-droite">
+                <a href="contact.html" class="a-item-droite"> Contact </a>
+            </li>
+            <li class="li-item-droite">
+                <a href="profil.html" class="a-item-droite"> Profil / Competences </a>
+            </li>
+			<!--
+            <li class="li-item-droite">
+                <a href="ressources.html" class="a-item-droite"> Ressources </a>
+            </li>
+		-->
+            <li class="li-item-droite">
+                <a href="formation.html" class="a-item-droite"> Formation / experience </a>
+            </li>
+            <li class="li-item-droite">
+                <a href="../index.html" class="a-item-droite"> Accueil </a>
+            </li>
+            <li  class="li-item-droite-lg">
+				<a href="../index.html"> 
+					<img class="nav-img-fr" src="../images/french.jpg"> 
+				</a>
+			</li>
+			<li  class="li-item-droite-lg">
+				<a href="../en/index.html"> 
+				<img class="nav-img-en" src="../images/english.png"> 
+				</a>
+		   </li>
+		</ul>
+		
+		<i id="img-menu" onclick="ouvrirMenu()" class="fas fa-bars"></i>
+			<div class="div-popup" id="btn-popup">
+					<a href="../index.html"> Accueil </a>
+					<a href="formation.html"> Formation/Experience </a>
+					<a href="profil.html"> Profil / Competences</a>
+					<a href="contact.html"> Contact </a>
+					<a href="../en/index.html"> 
+                        <img class="nav-img-en" src="../images/english.png">  
+                    </a>
+                    <a href="../index.html"> 
+                        <img class="nav-img-fr" src="../images/french.jpg">     
+                    </a>
+			</div>
+    </nav>
+
+    <main>
+
+        
+    
+        <h1>Competences</h1>
+		
+		
+			
+
+		<h2 id="comp-h2">Réseau :</h2>
+				<div class="comp-div">
+					<p class="comp-p"> Modèle OSI </p>
+					<div class="comp-barre">
+						<div class="comp-remplissage-80"></div>
+					</div>
+				</div>
+				<div class="comp-div">
+					<p class="comp-p"> DNS, DHCP, Routage, Vlan </p>
+					<div class="comp-barre">
+						<div class="comp-remplissage-80"></div>
+					</div>
+				</div>
+				<div class="comp-div">
+					<p class="comp-p"> Switch, Firewall </p>
+					<div class="comp-barre">
+						<div class="comp-remplissage-80"></div>
+					</div>
+				</div>
+				
+				<div class="comp-div">
+					<p class="comp-p"> Adressage IP (IPv4) </p>
+					<div class="comp-barre">
+						<div class="comp-remplissage-80"></div>
+					</div>
+				</div>
+
+		<h2 id="comp-h2">Windows :</h2>
+				<div class="comp-div">
+					<p class="comp-p"> Windows 10, 11 </p>
+					<div class="comp-barre">
+						<div class="comp-remplissage-90"></div>
+					</div>
+				</div>
+				<div class="comp-div">
+					<p class="comp-p"> Windows Server
+						<a class="openPopup" onclick="openWindows()">*</a> 
+					</p>
+					<div class="comp-barre">
+						<div class="comp-remplissage-70"></div>
+					</div>
+				</div>
+		
+		<h2 id="comp-h2">Linux (Debian) :</h2>
+				<div class="comp-div">
+					<p class="comp-p"> Apache, bind9, dhcpd, NFS</p>
+					<div class="comp-barre">
+						<div class="comp-remplissage-60"></div>
+					</div>
+				</div>
+				<div class="comp-div">
+					<p class="comp-p">LVM, SSH </p>
+					<div class="comp-barre">
+						<div class="comp-remplissage-60"></div>
+					</div>
+				</div>
+				<div class="comp-div">
+					<p class="comp-p"> Fail2Ban</p>
+					<div class="comp-barre">
+						<div class="comp-remplissage-40"></div>
+					</div>
+				</div>
+				
+				
+			
+		<h2 id="comp-h2">Langages :</h2>
+				<div class="comp-div">
+					<p class="comp-p"> Python </p>
+					<div class="comp-barre">
+						<div class="comp-remplissage-70"></div>
+					</div>
+				</div>
+				<div class="comp-div">
+					<p class="comp-p"> SQL
+					</p>
+					<div class="comp-barre">
+						<div class="comp-remplissage-50"></div>
+					</div>
+				</div>
+				<div class="comp-div">
+					<p class="comp-p"> PowerShell </p>
+					<div class="comp-barre">
+						<div class="comp-remplissage-40"></div>
+					</div>
+				</div>
+				<div class="comp-div">
+					<p class="comp-p"> VBA </p>
+					<div class="comp-barre">
+						<div class="comp-remplissage-40"></div>
+					</div>
+				</div>
+
+		
+
+		<h2 id="comp-h2">Logiciels :</h2>
+				<div class="comp-div">
+					<p class="comp-p"> GLPI </p>
+					<div class="comp-barre">
+						<div class="comp-remplissage-80"></div>
+					</div>
+				</div>
+				<div class="comp-div">
+					<p class="comp-p"> Microsoft 365 
+						<a class="openPopup" onclick="openOffice()">*</a> 
+					</p>
+					<div class="comp-barre">
+						<div class="comp-remplissage-70"></div>
+					</div>
+				</div>
+				<div class="comp-div">
+					<p class="comp-p"> CheckMK </p>
+					<div class="comp-barre">
+						<div class="comp-remplissage-50"></div>
+					</div>
+				</div>
+				
+
+
+		<h2 id="comp-h2">Virtualisation :</h2>
+				
+			
+				<div class="comp-div">
+					<p class="comp-p"> VMWare
+						<a class="openPopup" onclick="openVMware()">*</a> 
+					</p>
+					<div class="comp-barre">
+						<div class="comp-remplissage-70"></div>
+					</div>
+				</div>
+				<div class="comp-div">
+					<p class="comp-p"> Hyper-V </p>
+					<div class="comp-barre">
+						<div class="comp-remplissage-60"></div>
+					</div>
+				</div>
+				<div class="comp-div">
+					<p class="comp-p"> Proxmox VE </p>
+					<div class="comp-barre">
+						<div class="comp-remplissage-50"></div>
+					</div>
+				</div>	
+				
+
+
+				<div class="div-popup-comp" id="popup-VMware">
+					<i class="fa-solid fa-xmark" id="btn-cancel" onclick="closeVMware()"></i>
+					  <ul>
+						  <li>VMware workstation Pro / Player</li>
+						  <li>VMware Esx, vSphere, vCenter</li>
+						  <li>vSan, HA, DRS, vMotion</li>
+					  </ul>>
+				</div>
+
+				<div class="div-popup-comp" id="popup-windows">
+					<i class="fa-solid fa-xmark" id="btn-cancel" onclick="closeWindows()"></i>
+					  <ul>
+						  <li>Active Directory</li>
+						  <li>GPO</li>
+						  <li>Droits ACL NTFS</li>
+						  <li>Sauvegardes automatiques</li>
+						  <li>DNS et DHCP</li>
+						  <li>Serveur de fichiers et stockage </li>
+						  <li>DFS & DFSR</li>
+					  </ul>
+				</div>
+				
+				<div class="div-popup-comp office" id="popup-office">
+					<i class="fa-solid fa-xmark" id="btn-cancel" onclick="closeOffice()"></i>
+					  <ul>
+						
+						  <li>Exchange</li>
+						  <li>Office Admin Center</li>
+						  <li>Outlook</li>
+						  <li>Word</li>
+						  <li>Excel</li>
+						  <li>Power Point</li>
+						  <li>One note</li>
+						  <li>One Drive</li>
+						  <li>Teams</li>
+					  </ul>
+				</div>
+
+    
+                <h1>Profil</h1>
+
+
+
+
+                <h2 id="h2-profil">Centres d'intérêt</h2>
+        
+                <p id="p-profil" >
+                    <img id ="img-profil-sport" src="../images/sport.png">
+                    <strong>Sport</strong>
+                    
+                </p>
+        
+                <p id="p-profil" >
+                    <img id ="img-profil" src="../images/lecture.png">
+                    <strong>Lecture</strong> 
+                </p>
+        
+                <p id="p-profil" >
+                    <img id ="img-profil-video" src="../images/nature.jpg">
+                    <strong>Nature - Voyage</strong>  
+                </p>            
+
+
+    </main>
+    
+
+
+    <footer>
+        <ul>
+          <li> <a href="../index.html" class="a-footer"> Accueil</a></li>
+          <li> <a href="formation.html" class="a-footer"> Formation & experiences</a></li>
+          <li> <a href="profil.html" class="a-footer"> Profil / Competences</a></li>
+          <li> <a href="contact.html" class="a-footer"> Contact</a></li>
+        </ul>
+        <hr id="hr-footer">
+        <p id="copyrights-footer">2024 - Tous droits réservés -
+          <a class="mentions-legales" href="mentions-legales.html">mentions légales</a> 
+        </p> 
+      </footer>
+
+
+</body>
+</html>
+
+
