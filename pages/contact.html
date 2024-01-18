@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../style/style.css" type="text/css" > 
+        <link rel="icon" type="image/png" href="../images/logo.png" />
+        <title>Portfolio de Erwann</title>
+        <meta name="Auteurs" content="Erwann Koehler"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<script src="https://kit.fontawesome.com/e051dd5741.js" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="../js/menuResponsive.js"></script>
+    </head>    
+
+<body>
+    <nav>
+        <ul class="ul-nav">
+            <li class="li-logo">
+                <div class="div-nav-logo">
+                    <p class="p-nav-logo">
+                         Erwann
+                    </p>
+                </div>
+            </li>
+            <li class="li-item-droite">
+                <a href="contact.html" class="a-item-droite"> Contact </a>
+            </li>
+            <li class="li-item-droite">
+                <a href="profil.html" class="a-item-droite"> Profil / Competences </a>
+            </li>
+            <!--
+            <li class="li-item-droite">
+                <a href="ressources.html" class="a-item-droite"> Ressources </a>
+            </li>
+        -->
+            <li class="li-item-droite">
+                <a href="formation.html" class="a-item-droite"> Formation / experience </a>
+            </li>
+            <li class="li-item-droite">
+                <a href="../index.html" class="a-item-droite"> Accueil </a>
+            </li>
+            <li  class="li-item-droite-lg">
+				<a href="../index.html"> 
+					<img class="nav-img-fr" src="../images/french.jpg"> 
+				</a>
+			</li>
+			<li  class="li-item-droite-lg">
+				<a href="../en/index.html"> 
+				<img class="nav-img-en" src="../images/english.png"> 
+				</a>
+		   </li>
+		</ul>
+		
+		<i id="img-menu" onclick="ouvrirMenu()" class="fas fa-bars"></i>
+			<div class="div-popup" id="btn-popup">
+					<a href="../index.html"> Accueil </a>
+					<a href="formation.html"> Formation/Experience </a>
+					<a href="profil.html"> Profil / Competences</a>
+					<a href="contact.html"> Contact </a>
+					<a href="../en/index.html"> 
+                        <img class="nav-img-en" src="../images/english.png">  
+                    </a>
+                    <a href="../index.html"> 
+                        <img class="nav-img-fr" src="../images/french.jpg">     
+                    </a>
+			</div>
+    </nav>
+
+
+
+    <main id="contact_main">
+
+        <h1>Contact</h1>
+		
+		<p id="contact-p">
+			Ajoutez moi à votre réseau linkedin ! 
+			<a href="https://www.linkedin.com/in/erwann-koehler-440684214/" target="new-blank">
+				<i id="contact-img" class="fab fa-linkedin"></i>
+			</a>
+		</p>
+
+		
+        <form target="blank" action="https://formsubmit.co/erwann.divers@gmail.com" method="POST" id="contact-form">
+                <p id="contact-p">Votre nom :</p>
+                <input id="contact-mail" type="text" name="name" class="form-control" placeholder="Votre nom" required>
+
+                <p id="contact-p">Votre adresse mail :</p>
+                <input id="contact-mail" type="email" name="email" placeholder="Votre adresse mail" required>
+
+                <p id="contact-p">Votre message :</p>
+                <textarea id="contact-message" placeholder="Votre message" name="message" required></textarea>
+            
+            <button id="btn-envoyer" type="submit">Envoyer</button>
+          </form>
+		
+    </main>
+    
+
+
+    <footer>
+        <ul>
+          <li> <a href="../index.html" class="a-footer"> Accueil</a></li>
+          <li> <a href="formation.html" class="a-footer"> Formation & experiences</a></li>
+          <!--<li> <a href="ressources.html" class="a-footer"> Ressources</a></li>-->
+          <li> <a href="profil.html" class="a-footer"> Profil / Competences</a></li>
+          <li> <a href="contact.html" class="a-footer"> Contact</a></li>
+        </ul>
+        <hr id="hr-footer">
+        <p id="copyrights-footer">2024 - Tous droits réservés -
+          <a class="mentions-legales" href="mentions-legales.html">mentions légales</a> 
+        </p> 
+      </footer>
+
+</body>
+</html>
